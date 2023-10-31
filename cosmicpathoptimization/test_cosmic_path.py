@@ -9,7 +9,7 @@ class test_cosmic_path(unittest.TestCase):
         self.assertEqual(cosmic_path.calculate_mean(test_temps, 3), 11)
 
     def test_calculate_mean_case2(self):
-        test_temps = [100, 130 , 150]
+        test_temps = [100, 130, 150]
         self.assertEqual(cosmic_path.calculate_mean(test_temps, 3), 126)
 
     def test_calculate_mean_case3(self):

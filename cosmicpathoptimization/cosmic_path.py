@@ -1,8 +1,8 @@
 #! /usr/bin/python3
 
 
-def calculate_mean(temp_list: list[int], num_temps: int) -> int:
-    return (int(sum(temp_list)/num_temps))
+def calculate_mean(temp_list, num_temps):
+    return (int(sum(temp_list) / num_temps))
 
 
 def main():
