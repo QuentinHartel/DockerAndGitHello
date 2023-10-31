@@ -1,7 +1,9 @@
 #! /usr/bin/python3
+import typing
 
+intList = list[int]
 
-def calculate_mean(temp_list, num_temps):
+def calculate_mean(temp_list: intList, num_temps: int) -> int:
     return (int(sum(temp_list) / num_temps))
 
 
